@@ -70,11 +70,11 @@
       "minimumSystemVersion": "13.0",
       "exceptionDomain": "",
       "entitlements": "macos/entitlements.plist",
-      "frameworks": []
+      "frameworks": [],
+      "signingIdentity": "-"
     },
     "windows": {
       "signCommand": "trusted-signing-cli -e https://eus.codesigning.azure.net/ -a Yaak -c yaakapp %1"
     }
-  },
-  "signingIdentity": "-"
+  }
 }
